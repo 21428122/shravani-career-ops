@@ -65,11 +65,13 @@ function parsePipeline(content) {
     const m = line.match(/^- \[ \]\s+(\S+)(?:\s*\|\s*([^|]+?))?(?:\s*\|\s*(.+?))?\s*$/);
     if (!m) continue;
     const url = m[1];
-    if (seen.has(url)) continue;
-    seen.add(url);
+    const company = (m[2] || 'Unknown').trim();
+    const dedupKey = `${url}|${company.toLowerCase()}`;
+    if (seen.has(dedupKey)) continue;
+    seen.add(dedupKey);
     entries.push({
       url,
-      company: (m[2] || 'Unknown').trim(),
+      company,
       title: (m[3] || 'Product Role').trim(),
     });
   }
