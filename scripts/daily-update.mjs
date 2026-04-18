@@ -23,6 +23,7 @@ const PDFS_DIR = join(ROOT, 'pdfs');
 const HTML_DIR = join(ROOT, 'html');
 const TEMPLATE_PATH = join(ROOT, 'templates', 'resume-template.html');
 const NICHES_PATH = join(ROOT, 'templates', 'niches.json');
+const CONTACTS_PATH = join(ROOT, 'data', 'contacts.json');
 const PIPELINE_PATH = join(TESTING, 'data', 'pipeline.md');
 const INDEX_PATH = join(ROOT, 'INDEX.md');
 const LOG_PATH = join(ROOT, 'daily-log.txt');
@@ -144,12 +145,38 @@ function run() {
     }
   }
 
-  // 5. Build INDEX.md
+  // 5. Load contacts
+  let contacts = {};
+  try {
+    if (existsSync(CONTACTS_PATH)) {
+      contacts = JSON.parse(readFileSync(CONTACTS_PATH, 'utf-8'));
+    }
+  } catch (e) {
+    log(`contacts.json parse failed: ${e.message}`);
+  }
+
+  function contactFor(company) {
+    // Tolerant lookup: try exact, then normalized casefold
+    if (contacts[company]) return contacts[company];
+    const key = Object.keys(contacts).find(k => k.toLowerCase() === company.toLowerCase());
+    return key ? contacts[key] : null;
+  }
+
+  function nicheTemplate(niche) {
+    if (niche === 'healthtech' || niche === 'nocode' || niche === 'ai_agents' || niche === 'climate')
+      return 'outreach/tier2-cold-email-templates.md (Template A or B)';
+    if (niche === 'devtools' || niche === 'cybersecurity' || niche === 'fintech')
+      return 'outreach/tier2-cold-email-templates.md (Template C)';
+    return 'outreach/tier1-linkedin-dms.md (adapt)';
+  }
+
+  // 6. Build INDEX.md
   const nowET = new Date().toLocaleString('en-US', { timeZone: 'America/New_York' });
   let idx = `# Shravani's PM Internship Resume Pipeline\n\n`;
   idx += `_Auto-refreshed every day at 7:00 AM ET._\n`;
   idx += `_Last update: **${nowET}**_\n\n`;
   idx += `Total active applications: **${results.length}**\n\n`;
+  idx += `**👉 Start here:** [APPLY-PLAYBOOK.md](APPLY-PLAYBOOK.md) — the step-by-step for each application.\n\n`;
 
   const byNiche = {};
   for (const r of results) (byNiche[r.niche] = byNiche[r.niche] || []).push(r);
@@ -158,19 +185,50 @@ function run() {
   for (const [niche, list] of Object.entries(byNiche).sort()) {
     idx += `- **${niche}** — ${list.length}\n`;
   }
-  idx += `\n## All applications\n\n`;
-  idx += `| # | Company | Role | Niche | Tailored Resume | Apply |\n`;
-  idx += `|---|---------|------|-------|-----------------|-------|\n`;
+  idx += `\n## Active applications\n\n`;
+  idx += `| # | Company | Role | Niche | Resume | Apply | DM first (LinkedIn) | DM template |\n`;
+  idx += `|---|---------|------|-------|--------|-------|---------------------|-------------|\n`;
   results.forEach((r, i) => {
-    idx += `| ${i + 1} | ${r.company} | ${r.title} | \`${r.niche}\` | [PDF](pdfs/${r.filename}) | [→ Apply](${r.url}) |\n`;
+    const cs = contactFor(r.company);
+    let dmCell = '_no contact researched yet_';
+    if (cs && cs.length > 0) {
+      const top = cs[0];
+      dmCell = `[**${top.name}** — ${top.role}](${top.linkedin})`;
+    }
+    const tpl = nicheTemplate(r.niche);
+    idx += `| ${i + 1} | **${r.company}** | ${r.title} | \`${r.niche}\` | [PDF](pdfs/${r.filename}) | [→ Apply](${r.url}) | ${dmCell} | [${tpl.split('/').pop()}](${tpl.replace(/ .*$/, '')}) |\n`;
   });
-  idx += `\n---\n\n`;
+
+  idx += `\n## All LinkedIn contacts (3 per company)\n\n`;
+  idx += `See [contacts.md](contacts.md) for the full list with "why this person" notes.\n\n`;
+
+  idx += `---\n\n`;
   idx += `## How this works\n\n`;
-  idx += `- **Scanner** (\`../scan.mjs\` in the Career-Ops install) polls Greenhouse / Ashby / Lever APIs for new PM-intern-friendly roles every day.\n`;
-  idx += `- **Classifier** matches each posting to a niche from \`templates/niches.json\` based on company + title keywords.\n`;
-  idx += `- **Generator** fills \`templates/resume-template.html\` with niche-specific headline + skills and compiles a PDF via Playwright.\n`;
-  idx += `- **This repo** holds every tailored PDF so you can grab the right one for each application.\n`;
+  idx += `- **Scanner** polls Greenhouse / Ashby / Lever APIs daily for new PM/APM/Intern roles.\n`;
+  idx += `- **Classifier** matches each posting to a niche using keyword matching on company + title.\n`;
+  idx += `- **Generator** fills the HTML template with niche-specific headline + skills and renders a 1-page PDF via Playwright.\n`;
+  idx += `- **Contacts** for each company are in [\`data/contacts.json\`](data/contacts.json); the top contact appears in the table above.\n`;
+  idx += `- **Outreach templates** are in [\`outreach/\`](outreach/) — pick the one matching the niche.\n`;
   writeFileSync(INDEX_PATH, idx, 'utf-8');
+
+  // 6b. Build contacts.md (human-readable)
+  let cMd = `# Outreach Contacts — All Active Companies\n\n`;
+  cMd += `_Maintained manually in [\`data/contacts.json\`](data/contacts.json). Edit there, re-run \`scripts/daily-update.mjs\`, and this file + INDEX.md regenerate._\n\n`;
+  for (const r of results) {
+    const cs = contactFor(r.company);
+    cMd += `## ${r.company} — ${r.title}\n\n`;
+    cMd += `[→ Apply here](${r.url}) · [Tailored PDF](pdfs/${r.filename})\n\n`;
+    if (!cs || cs.length === 0) {
+      cMd += `_No contacts researched yet. Add to \`data/contacts.json\` to surface._\n\n`;
+      continue;
+    }
+    cMd += `| # | Name | Role | LinkedIn | Why |\n|---|------|------|----------|-----|\n`;
+    cs.forEach((p, i) => {
+      cMd += `| ${i + 1} | ${p.name} | ${p.role} | [profile](${p.linkedin}) | ${p.why} |\n`;
+    });
+    cMd += `\n`;
+  }
+  writeFileSync(join(ROOT, 'contacts.md'), cMd, 'utf-8');
 
   // 6. Commit + push
   try {

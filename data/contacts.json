@@ -1,0 +1,76 @@
+{
+  "FieldPulse": [
+    {"name": "Gabriel Pinchev", "role": "Founder & CEO", "linkedin": "https://www.linkedin.com/in/gabrielpinchev/", "why": "Founder; posts about hiring. Best single entry point for AI/Agentic PM intern."},
+    {"name": "Saxon Want", "role": "Product Manager", "linkedin": "https://www.linkedin.com/in/saxon-want-b0b19b309/", "why": "Current PM in Dallas; likely direct manager of the intern."},
+    {"name": "Jared B. Shaffer", "role": "Product Manager", "linkedin": "https://www.linkedin.com/in/jaredbshaffer/", "why": "8+ yrs SaaS PM experience on the team; warm-referral target."}
+  ],
+  "Creatify": [
+    {"name": "Chaz Z.", "role": "Co-founder & CTO", "linkedin": "https://www.linkedin.com/in/chaz-z-59a1aa80/", "why": "Technical co-founder at 43-person AI startup; founders respond to cold DMs."},
+    {"name": "Yinan (Steven) Na", "role": "Early team", "linkedin": "https://www.linkedin.com/in/nayinan", "why": "Early team member at Mountain View HQ; involved in intern hiring decisions."},
+    {"name": "Ledell Wu", "role": "Co-founder & Chief Research Scientist", "linkedin": "https://www.linkedin.com/in/ledell-wu-b5184929/", "why": "Second co-founder to ping if Chaz doesn't respond."}
+  ],
+  "Craniometrix": [
+    {"name": "Nikhil Patel", "role": "Founder & CEO (YC W22)", "linkedin": "https://www.linkedin.com/in/nikhil-s-patel/", "why": "CEO of small YC healthtech; at this size CEO approves intern hires."},
+    {"name": "Jon Amos", "role": "Leading Product & Operations", "linkedin": "https://www.linkedin.com/in/jonamos1/", "why": "NYC-based; direct hiring manager for a product intern/APM."},
+    {"name": "Phillip Ahn", "role": "Early team (YC W22)", "linkedin": "https://www.linkedin.com/in/phillipahn95/", "why": "Secondary touch if Nikhil/Jon are slow."}
+  ],
+  "Workiva": [
+    {"name": "Patrick Purcell", "role": "ESG Senior Product Manager", "linkedin": "https://www.linkedin.com/in/patrick-purcell-223b7528/", "why": "Senior PM on ESG line; adjacent to Carbon product."},
+    {"name": "Talia Lipkind", "role": "Product @ Workiva Carbon", "linkedin": "https://www.linkedin.com/in/talialipkind", "why": "Directly on the Workiva Carbon product team; likely the intern's day-to-day manager."},
+    {"name": "Toni Muhlbauer", "role": "Talent Acquisition / Early Careers", "linkedin": "https://www.linkedin.com/in/tmuhl123/", "why": "Involved in early-careers recruitment; right first recruiter touch."}
+  ],
+  "Galaxy": [
+    {"name": "Christopher Rhine, CFA", "role": "Senior Galaxy leader (NYC)", "linkedin": "https://www.linkedin.com/in/christopher-rhine-cfa-5148687/", "why": "Senior NYC-based Galaxy exec; top-of-funnel contact."},
+    {"name": "Jason Urban", "role": "Global Head of Trading", "linkedin": "https://www.linkedin.com/in/jason-urban-4b5b1a80/", "why": "Runs trading infra; crypto API product reports up through this org."},
+    {"name": "Diego Giammattei", "role": "Director", "linkedin": "https://www.linkedin.com/in/diego-giammattei-16386163/", "why": "NYC-based Galaxy Director; second warm outreach option."}
+  ],
+  "iCapital": [
+    {"name": "Charles Lin", "role": "Technical Product Manager, DLT", "linkedin": "https://www.linkedin.com/in/cheshenglin/", "why": "Exact-title match for the DLT PM Intern role; likely direct manager."},
+    {"name": "Bien Ngo", "role": "Managing Director — Blockchain / DLT", "linkedin": "https://www.linkedin.com/in/bien-ngo/", "why": "Runs iCapital's DLT initiative; decision-maker on DLT headcount."},
+    {"name": "Tanmay Thakkar", "role": "Product at iCapital (NYC)", "linkedin": "https://www.linkedin.com/in/tanmay-thakkar/", "why": "20 yrs product experience; involved in DLT launches."}
+  ],
+  "MongoDB": [
+    {"name": "Xiaochen Wu", "role": "Lead Product Manager (AI/ML tooling)", "linkedin": "https://www.linkedin.com/in/xiaochen-wu-a7353769/", "why": "Lead PM focused on AI/ML tooling; best signal for Internal AI PM team."},
+    {"name": "John Kubin", "role": "Senior Product Manager", "linkedin": "https://www.linkedin.com/in/john-kubin-69aa16b5/", "why": "Current Sr PM; strong peer/manager contact."},
+    {"name": "Ying Xuan E.", "role": "Campus Recruiter", "linkedin": "https://www.linkedin.com/in/yingx-eng/", "why": "Confirmed MongoDB campus recruiter; right first ping for intern apps."}
+  ],
+  "Zola": [
+    {"name": "Shan-Lyn Ma", "role": "Co-founder & Co-CEO", "linkedin": "https://www.linkedin.com/in/shanlynma", "why": "Former CPO; famous for replying to thoughtful cold DMs."},
+    {"name": "Rachel Jarrett", "role": "Co-CEO (owns product)", "linkedin": "https://www.linkedin.com/in/rachel-jarrett-675abb6/", "why": "Explicitly owns the Product function; most direct PM intern decision-maker."},
+    {"name": "Kate Furst", "role": "SVP Operations & GM, Vendor Marketplace", "linkedin": "https://www.linkedin.com/in/kate-furst/", "why": "Runs the marketplace business unit."}
+  ],
+  "Podium": [
+    {"name": "Imasha Chaseendran", "role": "Senior PM (AI employee, Bulk Messages, Reviews)", "linkedin": "https://www.linkedin.com/in/imashasem/", "why": "Runs AI messaging product strategy; likely direct manager."},
+    {"name": "Brad Boren", "role": "Product Manager (Lehi UT)", "linkedin": "https://www.linkedin.com/in/brad-boren/", "why": "Local Lehi PM contact; excellent backchannel/referral."},
+    {"name": "Robert Potts", "role": "Strategy & Operations", "linkedin": "https://www.linkedin.com/in/rapotts/", "why": "Senior Podium operator; second-degree entry."}
+  ],
+  "Illumio": [
+    {"name": "Tina Lam", "role": "Senior Director of Product Management", "linkedin": "https://www.linkedin.com/in/lamtina/", "why": "Closest to Head of Product; likely owns intern headcount."},
+    {"name": "Nidhi Kannoujia", "role": "Cloud Product Line Manager", "linkedin": "https://www.linkedin.com/in/nkannoujia/", "why": "Cloud PM at Sunnyvale HQ; posts about hiring."},
+    {"name": "Sachin Murthy", "role": "Cloud & AI Product Manager", "linkedin": "https://www.linkedin.com/in/skwolvie/", "why": "PM on cloud security + AI; relevant manager for Technical PM intern."}
+  ],
+  "NETSCOUT": [
+    {"name": "Adam Bixler", "role": "Director, Product Management — NETSCOUT Arbor (DDoS)", "linkedin": "https://www.linkedin.com/in/adambixler", "why": "Directly runs product management for Arbor DDoS; decision-maker for DDoS PM Intern."},
+    {"name": "Tom Bienkowski", "role": "Sr. Director, Security Product Marketing (DDoS)", "linkedin": "https://www.linkedin.com/in/tom-bienkowski-a0566b1/", "why": "25+ yrs at Arbor/NETSCOUT; DDoS SME."},
+    {"name": "Matteo Marastoni", "role": "Senior Product Manager", "linkedin": "https://www.linkedin.com/in/matteomarastoni/", "why": "Current Sr. PM; peer/day-to-day manager signal."}
+  ],
+  "Scowtt": [
+    {"name": "Eduardo Indacochea", "role": "Founder & CEO (ex-Meta VP, ex-Google, ex-Microsoft)", "linkedin": "https://www.linkedin.com/in/eduardoindacochea", "why": "Founder/CEO; actively posts about hiring. #1 cold-DM target here."},
+    {"name": "Matthew Stern", "role": "Early team", "linkedin": "https://www.linkedin.com/in/matthew-stern-3b12ab177/", "why": "Good secondary contact for intern applicant."},
+    {"name": "Eric Schwartz", "role": "Team member", "linkedin": "https://www.linkedin.com/in/eric-schwartz-9308b413/", "why": "Backup contact at small company."}
+  ],
+  "Scalence": [
+    {"name": "Ranjini Poddar", "role": "CEO & Co-Founder", "linkedin": "https://www.linkedin.com/in/ranjini-poddar-81b230/", "why": "WBENC Rising Star 2025; speaks publicly; reachable founder."},
+    {"name": "Jolly Jayaprakash", "role": "Leadership team", "linkedin": "https://www.linkedin.com/in/jollyjayaprakash/", "why": "Scalence leadership team; good second contact."}
+  ],
+  "Fulcrum GT": [
+    {"name": "Ahmed Shaaban", "role": "Founder & CEO", "linkedin": "https://www.linkedin.com/in/ahmed-shaaban-a62155b9", "why": "Founder of Fast Company Top-10 legal-tech; appears on podcasts; responds to warm cold outreach."},
+    {"name": "Drew Blazaitis", "role": "SVP Product & Strategy", "linkedin": "https://www.linkedin.com/in/dblazaitis/", "why": "Top Product exec; final decision-maker for Startup Lab Product Associate."},
+    {"name": "Yamaan Nandolia", "role": "Product Owner Associate", "linkedin": "https://www.linkedin.com/in/yamaan-nandolia/", "why": "Currently in the exact program she's applying to; perfect intel DM."}
+  ],
+  "Replit": [
+    {"name": "Amol Jain", "role": "Head of Product Engineering", "linkedin": "https://www.linkedin.com/in/jainamol", "why": "Closest to Head of Product; runs lean PM org. Direct hiring manager for Growth PM."},
+    {"name": "Michele Catasta", "role": "President & Head of AI", "linkedin": "https://www.linkedin.com/in/pirroh", "why": "President; gates executive hires. Strong signal if Amol doesn't reply."},
+    {"name": "Amjad Masad", "role": "Founder & CEO", "linkedin": "https://www.linkedin.com/in/amjadmasad/", "why": "Very public on Lenny's / Sequoia / YC. Has publicly critiqued PMs — a Growth PM cold DM is defensible."}
+  ]
+}
