@@ -1,0 +1,74 @@
+{
+  "healthtech": {
+    "headline": "AI Product Manager in Healthcare — Applying for {{ROLE}}, {{COMPANY}}",
+    "skills": [
+      {"label": "Healthcare Product", "items": "Clinical Workflow Automation, CRM for Healthcare, User Research w/ Clinicians (200+), Patient-facing Diagnostics, Medical Device Launch"},
+      {"label": "AI / Data", "items": "Claude, Emergent, Hugging Face, LangChain, SQL, Python, Power BI, Tableau, Mixpanel, Amplitude, Edge AI, Computer Vision"},
+      {"label": "Product & Delivery", "items": "RICE Prioritization, A/B Testing, Jira, Figma, Confluence, Power Automate, Airtable, Retool, Zapier"}
+    ],
+    "keywords": ["health", "clinical", "medical", "patient", "diagnostic", "healthcare", "care", "hospital", "hipaa", "pharma", "biotech", "mental", "fertility", "telehealth", "rcm"]
+  },
+  "devtools": {
+    "headline": "AI Product Manager — Applying for {{ROLE}}, {{COMPANY}}",
+    "skills": [
+      {"label": "AI / Vibe Coding", "items": "Claude, Emergent, Cursor, v0, Lovable, Base44, Supabase, LangChain, Hugging Face, Generative AI, ML Model Deployment"},
+      {"label": "Developer Product & DX", "items": "API Integration, REST/JSON, Technical Documentation, SQL, Python, JavaScript, TypeScript, ReactJS, Git"},
+      {"label": "Product & Analytics", "items": "RICE Prioritization, A/B Testing, Mixpanel, Amplitude, Google Analytics, Tableau, Jira, Figma"}
+    ],
+    "keywords": ["developer", "devtool", "dev tool", "api", "sdk", "platform", "infrastructure", "cloud", "database", "observability", "devops", "mongodb", "supabase", "replit", "retool", "vercel", "netlify", "terraform", "deploy"]
+  },
+  "climate": {
+    "headline": "AI Product Manager in Climate Tech — Applying for {{ROLE}}, {{COMPANY}}",
+    "skills": [
+      {"label": "Climate & Sustainability", "items": "Carbon Accounting, ESG Analytics, Dashboard Design, SQL + BI for Environmental Metrics, Edge AI for Industrial Monitoring (RUST-E)"},
+      {"label": "AI / Data", "items": "Claude, Emergent, Hugging Face, LangChain, Python, SQL, Power BI, Tableau, Mixpanel, Amplitude, Computer Vision"},
+      {"label": "Product & Delivery", "items": "RICE Prioritization, A/B Testing, Jira, Figma, Airtable, Retool, Zapier, Power Automate"}
+    ],
+    "keywords": ["climate", "carbon", "sustainability", "esg", "emissions", "environmental", "green", "renewable", "solar", "energy", "decarbon", "watershed", "persefoni", "sylvera", "pachama"]
+  },
+  "nocode": {
+    "headline": "AI & Automation Product Manager — Applying for {{ROLE}}, {{COMPANY}}",
+    "skills": [
+      {"label": "Automation & Low-Code", "items": "Power Automate, Zapier, Retool, Airtable, PowerApps, Workflow Automation, API Integration, Enterprise CRM (28-state rollout)"},
+      {"label": "AI / Vibe Coding", "items": "Claude, Emergent, Cursor, v0, Lovable, Base44, Supabase, LangChain, Hugging Face"},
+      {"label": "Product & Analytics", "items": "Jira, Figma, Mixpanel, Amplitude, Google Analytics, Tableau, Power BI, SQL, Python, RICE Prioritization"}
+    ],
+    "keywords": ["no-code", "no code", "low-code", "low code", "nocode", "lowcode", "workflow", "automation", "crm", "zapier", "airtable", "retool", "n8n", "gumloop", "tines", "workato", "make", "fieldpulse", "podium"]
+  },
+  "ai_agents": {
+    "headline": "AI Product Manager — Applying for {{ROLE}}, {{COMPANY}}",
+    "skills": [
+      {"label": "AI / Agentic Systems", "items": "Claude, Emergent, Cursor, v0, Lovable, Base44, Supabase, LangChain, Hugging Face, Edge AI, Computer Vision, ML Model Deployment, Agentic Workflows"},
+      {"label": "Product & Analytics", "items": "Mixpanel, Amplitude, Google Analytics, Tableau, Power BI, SQL, Python, A/B Testing, RICE Prioritization"},
+      {"label": "Automation & Integration", "items": "Power Automate, Zapier, Retool, Airtable, PowerApps, REST API, CRM Systems"}
+    ],
+    "keywords": ["agent", "agentic", "chatbot", "assistant", "ai-native", "genai", "llm", "generative", "anthropic", "openai", "creatify", "decagon", "sierra"]
+  },
+  "cybersecurity": {
+    "headline": "Technical Product Manager — Applying for {{ROLE}}, {{COMPANY}}",
+    "skills": [
+      {"label": "Security Product (adjacent)", "items": "Process Automation, Compliance-friendly CRM, Role-based Access, Audit Trail Design, API Integration"},
+      {"label": "Technical & Data", "items": "SQL, Python, JavaScript, TypeScript, ReactJS, REST/JSON APIs, Git, Power BI, Tableau, Mixpanel"},
+      {"label": "AI / Vibe Coding", "items": "Claude, Emergent, Cursor, v0, Lovable, Base44, Supabase"}
+    ],
+    "keywords": ["security", "cybersec", "cyber", "fraud", "auth", "identity", "compliance", "zero-trust", "ddos", "illumio", "netscout", "vanta", "semgrep", "aikido", "persona", "stytch"]
+  },
+  "fintech": {
+    "headline": "AI Product Manager in Fintech — Applying for {{ROLE}}, {{COMPANY}}",
+    "skills": [
+      {"label": "Fintech Product (adjacent)", "items": "Payments workflows, KYC/Onboarding UX, Dashboard + Reporting SaaS, Enterprise CRM rollout, Risk/Fraud-adjacent analytics"},
+      {"label": "AI / Vibe Coding", "items": "Claude, Emergent, Cursor, v0, Lovable, Base44, Supabase, LangChain, Hugging Face"},
+      {"label": "Technical & Data", "items": "SQL, Python, ReactJS, Power BI, Tableau, Mixpanel, Amplitude, RICE Prioritization"}
+    ],
+    "keywords": ["fintech", "payment", "banking", "lending", "crypto", "trading", "invest", "wealth", "stripe", "plaid", "affirm", "ramp", "galaxy", "icapital", "dlt", "treasury"]
+  },
+  "generic": {
+    "headline": "AI Product Manager — Applying for {{ROLE}}, {{COMPANY}}",
+    "skills": [
+      {"label": "Languages", "items": "SQL, Python, JavaScript, TypeScript, ReactJS, HTML/CSS"},
+      {"label": "Tools", "items": "Jira, Confluence, Figma, Mixpanel, Amplitude, Google Analytics, Tableau, Power BI, Airtable, Zapier, Retool, Power Automate, PowerApps, Git"},
+      {"label": "AI / Vibe Coding", "items": "Lovable, Base44, Supabase, Emergent, Claude, Cursor, v0, LangChain, Hugging Face"}
+    ],
+    "keywords": []
+  }
+}
