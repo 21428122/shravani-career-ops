@@ -6,102 +6,38 @@
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
   html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
-  body {
-    font-family: 'Calibri', 'Helvetica Neue', Arial, sans-serif;
-    font-size: 9.5pt;
-    line-height: 1.25;
-    color: #1a1a1a;
-    background: #fff;
-  }
+  body { font-family: 'Calibri', 'Helvetica Neue', Arial, sans-serif; font-size: 9.5pt; line-height: 1.25; color: #1a1a1a; background: #fff; }
   .page { margin: 0; padding: 0; }
-
-  /* Header */
-  .name {
-    font-size: 19pt;
-    font-weight: 700;
-    color: #1a3a6b;
-    text-align: center;
-    letter-spacing: 0.03em;
-    margin-bottom: 1px;
-  }
-  .headline {
-    font-size: 10.5pt;
-    font-weight: 600;
-    color: #1a1a1a;
-    text-align: center;
-    margin-bottom: 2px;
-  }
-  .contact {
-    text-align: center;
-    font-size: 9.5pt;
-    color: #333;
-    margin-bottom: 6px;
-  }
+  .name { font-size: 19pt; font-weight: 700; color: #1a3a6b; text-align: center; letter-spacing: 0.03em; margin-bottom: 1px; }
+  .headline { font-size: 10.5pt; font-weight: 600; color: #1a1a1a; text-align: center; margin-bottom: 2px; }
+  .contact { text-align: center; font-size: 9.5pt; color: #333; margin-bottom: 6px; }
   .contact a { color: #333; text-decoration: none; }
-
-  /* Section */
-  .section-title {
-    font-size: 10.5pt;
-    font-weight: 700;
-    color: #1a3a6b;
-    text-transform: uppercase;
-    letter-spacing: 0.04em;
-    border-bottom: 0.7pt solid #1a3a6b;
-    padding-bottom: 1px;
-    margin: 6px 0 3px 0;
-  }
-
-  /* Entry header row */
+  .section-title { font-size: 10.5pt; font-weight: 700; color: #1a3a6b; text-transform: uppercase; letter-spacing: 0.04em; border-bottom: 0.7pt solid #1a3a6b; padding-bottom: 1px; margin: 6px 0 3px 0; }
   .entry { margin-bottom: 4px; page-break-inside: avoid; }
-  .entry-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    gap: 10px;
-  }
-  .entry-title {
-    font-size: 10pt;
-  }
+  .entry-header { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; }
+  .entry-title { font-size: 10pt; }
   .entry-title .company { font-weight: 700; color: #000; }
   .entry-title .role { font-style: italic; color: #333; }
-  .entry-date {
-    font-size: 9.5pt;
-    color: #1a3a6b;
-    font-weight: 600;
-    white-space: nowrap;
-  }
-
-  /* Lists */
+  .entry-date { font-size: 9.5pt; color: #1a3a6b; font-weight: 600; white-space: nowrap; }
   ul { padding-left: 14px; margin-top: 1px; margin-bottom: 0; }
   li { font-size: 9.5pt; line-height: 1.3; margin-bottom: 1px; }
-
-  /* Skills */
   .skills p { margin-bottom: 1px; font-size: 9.5pt; }
   .skills .label { font-weight: 700; }
-
-  /* Education */
   .edu-coursework { font-size: 9.5pt; margin-top: 0; }
   .edu-coursework .lbl { font-weight: 600; }
-
-  @media print {
-    .page { padding: 0; }
-  }
 </style>
 </head>
 <body>
 <div class="page">
 
   <div class="name">SHRAVANI DORLIKAR</div>
-  <div class="headline">AI Product Manager in Healthcare — Applying for Product Internship, Craniometrix (2026)</div>
-  <div class="contact">
-    Brooklyn, NY &nbsp;•&nbsp; +1-929-774-6781 &nbsp;•&nbsp; ssd9840@nyu.edu &nbsp;•&nbsp; linkedin.com/in/shravi29
-  </div>
+  <div class="headline">AI Product Manager — Applying for Product (intern/APM track), Craniometrix</div>
+  <div class="contact">Brooklyn, NY &nbsp;&bull;&nbsp; +1-929-774-6781 &nbsp;&bull;&nbsp; ssd9840@nyu.edu &nbsp;&bull;&nbsp; linkedin.com/in/shravi29</div>
 
   <div class="section-title">Education</div>
-
   <div class="entry">
     <div class="entry-header">
-      <div class="entry-title"><span class="company">New York University — Tandon School of Engineering</span></div>
+      <div class="entry-title"><span class="company">New York University &mdash; Tandon School of Engineering</span></div>
       <div class="entry-date">Graduating May 2027</div>
     </div>
     <div class="entry-title"><span class="role">Master of Science in Management of Technology</span></div>
@@ -109,29 +45,26 @@
     <div class="edu-coursework"><span class="lbl">Involvement:</span> NYU Tandon Product Management Club (Member)</div>
     <div class="edu-coursework"><span class="lbl">Affiliations:</span> Grace Hopper Celebration, Society of Women Engineers (SWE), IEEE, IETE</div>
   </div>
-
   <div class="entry">
     <div class="entry-header">
       <div class="entry-title"><span class="company">Vidyalankar Institute of Technology</span></div>
       <div class="entry-date">Graduated May 2024</div>
     </div>
-    <div class="entry-title"><span class="role">Bachelor of Technology in Electronics &amp; Telecommunication</span> &nbsp;•&nbsp; CGPA 8.25 / 10</div>
+    <div class="entry-title"><span class="role">Bachelor of Technology in Electronics &amp; Telecommunication</span> &bull; CGPA 8.25 / 10</div>
     <div class="edu-coursework"><span class="lbl">Awards:</span> Global Online Laboratory Consortium Winner 2024, Smart India Hackathon Finalist 2022</div>
   </div>
 
   <div class="section-title">Skills</div>
   <div class="skills">
     <p><span class="label">Languages:</span> SQL, Python, JavaScript, TypeScript, ReactJS, HTML/CSS</p>
-    <p><span class="label">Healthcare Product:</span> Clinical Workflow Automation, CRM for Healthcare, User Research w/ Clinicians (200+), HIPAA-adjacent Analytics, Patient-facing Diagnostics</p>
-    <p><span class="label">AI / Data:</span> Claude, Emergent, Hugging Face, LangChain, SQL, Python, Power BI, Tableau, Mixpanel, Amplitude, Edge AI, Computer Vision</p>
-    <p><span class="label">Product &amp; Delivery:</span> RICE Prioritization, A/B Testing, Jira, Figma, Confluence, Power Automate, Airtable, Retool, Zapier</p>
+    <p><span class="label">Tools:</span> Jira, Confluence, Figma, Mixpanel, Amplitude, Google Analytics, Tableau, Power BI, Airtable, Zapier, Retool, Power Automate, PowerApps, Git</p>
+    <p><span class="label">AI / Vibe Coding:</span> Lovable, Base44, Supabase, Emergent, Claude, Cursor, v0, LangChain, Hugging Face</p>
   </div>
 
   <div class="section-title">Work Experience</div>
-
   <div class="entry">
     <div class="entry-header">
-      <div class="entry-title"><span class="company">InBody India</span> &nbsp;-&nbsp; <span class="role">Support Engineer (Product + Operations)</span></div>
+      <div class="entry-title"><span class="company">InBody India</span> &nbsp;&mdash;&nbsp; <span class="role">Support Engineer (Product + Operations)</span></div>
       <div class="entry-date">Jun 2024 - Jun 2025</div>
     </div>
     <ul>
@@ -141,10 +74,9 @@
       <li>Drove roadmap decisions from top 15 customer pain points identified in Power BI and SQL analytics, increasing retention 28% and reducing churn from 18% to 13%</li>
     </ul>
   </div>
-
   <div class="entry">
     <div class="entry-header">
-      <div class="entry-title"><span class="company">Fuse Bytes</span> &nbsp;-&nbsp; <span class="role">Product Development Intern</span></div>
+      <div class="entry-title"><span class="company">Fuse Bytes</span> &nbsp;&mdash;&nbsp; <span class="role">Product Development Intern</span></div>
       <div class="entry-date">Feb 2023 - May 2023</div>
     </div>
     <ul>
@@ -155,10 +87,9 @@
   </div>
 
   <div class="section-title">Leadership</div>
-
   <div class="entry">
     <div class="entry-header">
-      <div class="entry-title"><span class="company">VLABS Digital Communication Platform</span> &nbsp;-&nbsp; <span class="role">Product Lead (GOLC Winner 2024)</span></div>
+      <div class="entry-title"><span class="company">VLABS Digital Communication Platform</span> &nbsp;&mdash;&nbsp; <span class="role">Product Lead (GOLC Winner 2024)</span></div>
       <div class="entry-date">2024</div>
     </div>
     <ul>
@@ -167,10 +98,9 @@
       <li>Built interactive simulation modules in JavaScript and ReactJS, tracked engagement and assessment scores in analytics, and iterated to 100% curriculum alignment</li>
     </ul>
   </div>
-
   <div class="entry">
     <div class="entry-header">
-      <div class="entry-title"><span class="company">RUST-E: AI-Powered Corrosion Monitoring</span> &nbsp;-&nbsp; <span class="role">Product Manager (AVEVA Innovation Challenge 2025)</span></div>
+      <div class="entry-title"><span class="company">RUST-E: AI-Powered Corrosion Monitoring</span> &nbsp;&mdash;&nbsp; <span class="role">Product Manager (AVEVA Innovation Challenge 2025)</span></div>
       <div class="entry-date">2025</div>
     </div>
     <ul>
@@ -178,10 +108,9 @@
       <li>Conducted interviews with 3 industry partners, built low-code monitoring dashboard, and pitched pricing + go-to-market strategy to competition judges</li>
     </ul>
   </div>
-
   <div class="entry">
     <div class="entry-header">
-      <div class="entry-title"><span class="company">Web Registration System</span> &nbsp;-&nbsp; <span class="role">Product Lead (Samarth Vasantik Kreeda Prashikshan Shibir)</span></div>
+      <div class="entry-title"><span class="company">Web Registration System</span> &nbsp;&mdash;&nbsp; <span class="role">Product Lead (Samarth Vasantik Kreeda Prashikshan Shibir)</span></div>
       <div class="entry-date">2024</div>
     </div>
     <ul>

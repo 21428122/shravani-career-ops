@@ -4,7 +4,7 @@ _Maintained manually in [`data/contacts.json`](data/contacts.json). Edit there, 
 
 ## FieldPulse — AI/Agentic Systems Product Intern (Summer 2026)
 
-[→ Apply here](https://ats.rippling.com/fieldpulse/jobs/6e2cb87c-fda3-4bd2-8eb8-c50f8b822281) · [Tailored PDF](pdfs/ShravaniDorlikar-PMIntern-FieldPulse-202604.pdf)
+[→ Apply here](https://ats.rippling.com/fieldpulse/jobs/6e2cb87c-fda3-4bd2-8eb8-c50f8b822281) · [Tailored PDF](pdfs/ShravaniDorlikar-PMIntern-FieldPulse-202605.pdf)
 
 | # | Name | Role | LinkedIn | Why |
 |---|------|------|----------|-----|
@@ -14,7 +14,7 @@ _Maintained manually in [`data/contacts.json`](data/contacts.json). Edit there, 
 
 ## Creatify — Product Manager Intern
 
-[→ Apply here](https://jobs.ashbyhq.com/creatify/4da91083-999a-4bf8-b53d-92a179073af2/application) · [Tailored PDF](pdfs/ShravaniDorlikar-PMIntern-Creatify-202604.pdf)
+[→ Apply here](https://jobs.ashbyhq.com/creatify/4da91083-999a-4bf8-b53d-92a179073af2/application) · [Tailored PDF](pdfs/ShravaniDorlikar-PMIntern-Creatify-202605.pdf)
 
 | # | Name | Role | LinkedIn | Why |
 |---|------|------|----------|-----|
@@ -24,7 +24,7 @@ _Maintained manually in [`data/contacts.json`](data/contacts.json). Edit there, 
 
 ## Craniometrix — Product (intern/APM track)
 
-[→ Apply here](https://www.ycombinator.com/companies/craniometrix/jobs) · [Tailored PDF](pdfs/ShravaniDorlikar-PMIntern-Craniometrix-202604.pdf)
+[→ Apply here](https://www.ycombinator.com/companies/craniometrix/jobs) · [Tailored PDF](pdfs/ShravaniDorlikar-PMIntern-Craniometrix-202605.pdf)
 
 | # | Name | Role | LinkedIn | Why |
 |---|------|------|----------|-----|
@@ -34,7 +34,7 @@ _Maintained manually in [`data/contacts.json`](data/contacts.json). Edit there, 
 
 ## Workiva — Spring/Summer 2026 Intern - Product Analyst (Carbon)
 
-[→ Apply here](https://www.builtinnyc.com/job/spring-summer-2026-intern-product-analyst-carbon/7116452) · [Tailored PDF](pdfs/ShravaniDorlikar-PMIntern-Workiva-202604.pdf)
+[→ Apply here](https://www.builtinnyc.com/job/spring-summer-2026-intern-product-analyst-carbon/7116452) · [Tailored PDF](pdfs/ShravaniDorlikar-PMIntern-Workiva-202605.pdf)
 
 | # | Name | Role | LinkedIn | Why |
 |---|------|------|----------|-----|
@@ -44,7 +44,7 @@ _Maintained manually in [`data/contacts.json`](data/contacts.json). Edit there, 
 
 ## Galaxy — 2026 Product Internship - NYC
 
-[→ Apply here](https://job-boards.greenhouse.io/galaxydigitalservices/jobs/5834759004) · [Tailored PDF](pdfs/ShravaniDorlikar-PMIntern-Galaxy-202604.pdf)
+[→ Apply here](https://job-boards.greenhouse.io/galaxydigitalservices/jobs/5834759004) · [Tailored PDF](pdfs/ShravaniDorlikar-PMIntern-Galaxy-202605.pdf)
 
 | # | Name | Role | LinkedIn | Why |
 |---|------|------|----------|-----|
@@ -54,7 +54,7 @@ _Maintained manually in [`data/contacts.json`](data/contacts.json). Edit there, 
 
 ## iCapital — DLT Product Manager - Summer 2026 Intern
 
-[→ Apply here](https://www.builtinnyc.com/job/dlt-product-manager-summer-2026-intern/7658187) · [Tailored PDF](pdfs/ShravaniDorlikar-PMIntern-iCapital-202604.pdf)
+[→ Apply here](https://www.builtinnyc.com/job/dlt-product-manager-summer-2026-intern/7658187) · [Tailored PDF](pdfs/ShravaniDorlikar-PMIntern-iCapital-202605.pdf)
 
 | # | Name | Role | LinkedIn | Why |
 |---|------|------|----------|-----|
@@ -64,7 +64,7 @@ _Maintained manually in [`data/contacts.json`](data/contacts.json). Edit there, 
 
 ## MongoDB — 2026 Internal AI Product Management Intern NYC
 
-[→ Apply here](https://builtin.com/job/2026-internal-ai-product-management-intern-nyc/7808542) · [Tailored PDF](pdfs/ShravaniDorlikar-PMIntern-MongoDB-202604.pdf)
+[→ Apply here](https://builtin.com/job/2026-internal-ai-product-management-intern-nyc/7808542) · [Tailored PDF](pdfs/ShravaniDorlikar-PMIntern-MongoDB-202605.pdf)
 
 | # | Name | Role | LinkedIn | Why |
 |---|------|------|----------|-----|
@@ -74,7 +74,7 @@ _Maintained manually in [`data/contacts.json`](data/contacts.json). Edit there, 
 
 ## Zola — Product Management Intern (Summer 2026)
 
-[→ Apply here](https://www.builtinnyc.com/company/zola/jobs) · [Tailored PDF](pdfs/ShravaniDorlikar-PMIntern-Zola-202604.pdf)
+[→ Apply here](https://www.builtinnyc.com/company/zola/jobs) · [Tailored PDF](pdfs/ShravaniDorlikar-PMIntern-Zola-202605.pdf)
 
 | # | Name | Role | LinkedIn | Why |
 |---|------|------|----------|-----|
@@ -84,7 +84,7 @@ _Maintained manually in [`data/contacts.json`](data/contacts.json). Edit there, 
 
 ## Podium — Product Management Intern
 
-[→ Apply here](https://www.podium.com/careers/) · [Tailored PDF](pdfs/ShravaniDorlikar-PMIntern-Podium-202604.pdf)
+[→ Apply here](https://www.podium.com/careers/) · [Tailored PDF](pdfs/ShravaniDorlikar-PMIntern-Podium-202605.pdf)
 
 | # | Name | Role | LinkedIn | Why |
 |---|------|------|----------|-----|
@@ -94,7 +94,7 @@ _Maintained manually in [`data/contacts.json`](data/contacts.json). Edit there, 
 
 ## Illumio — Product Management Intern + Technical PM Intern
 
-[→ Apply here](https://www.illumio.com/careers) · [Tailored PDF](pdfs/ShravaniDorlikar-PMIntern-Illumio-202604.pdf)
+[→ Apply here](https://www.illumio.com/careers) · [Tailored PDF](pdfs/ShravaniDorlikar-PMIntern-Illumio-202605.pdf)
 
 | # | Name | Role | LinkedIn | Why |
 |---|------|------|----------|-----|
@@ -104,7 +104,7 @@ _Maintained manually in [`data/contacts.json`](data/contacts.json). Edit there, 
 
 ## NETSCOUT — DDoS Product Management Intern
 
-[→ Apply here](https://www.netscout.com/careers) · [Tailored PDF](pdfs/ShravaniDorlikar-PMIntern-NETSCOUT-202604.pdf)
+[→ Apply here](https://www.netscout.com/careers) · [Tailored PDF](pdfs/ShravaniDorlikar-PMIntern-NETSCOUT-202605.pdf)
 
 | # | Name | Role | LinkedIn | Why |
 |---|------|------|----------|-----|
@@ -114,7 +114,7 @@ _Maintained manually in [`data/contacts.json`](data/contacts.json). Edit there, 
 
 ## Scowtt — Product Management Intern
 
-[→ Apply here](https://github.com/jobright-ai/2026-Product-Management-Internship) · [Tailored PDF](pdfs/ShravaniDorlikar-PMIntern-Scowtt-202604.pdf)
+[→ Apply here](https://github.com/jobright-ai/2026-Product-Management-Internship) · [Tailored PDF](pdfs/ShravaniDorlikar-PMIntern-Scowtt-202605.pdf)
 
 | # | Name | Role | LinkedIn | Why |
 |---|------|------|----------|-----|
@@ -124,7 +124,7 @@ _Maintained manually in [`data/contacts.json`](data/contacts.json). Edit there, 
 
 ## Scalence — Product Owner Intern
 
-[→ Apply here](https://github.com/jobright-ai/2026-Product-Management-Internship) · [Tailored PDF](pdfs/ShravaniDorlikar-PMIntern-Scalence-202604.pdf)
+[→ Apply here](https://github.com/jobright-ai/2026-Product-Management-Internship) · [Tailored PDF](pdfs/ShravaniDorlikar-PMIntern-Scalence-202605.pdf)
 
 | # | Name | Role | LinkedIn | Why |
 |---|------|------|----------|-----|
@@ -133,7 +133,7 @@ _Maintained manually in [`data/contacts.json`](data/contacts.json). Edit there, 
 
 ## Fulcrum GT — Startup Lab 2026: Product Associate
 
-[→ Apply here](https://github.com/jobright-ai/2026-Product-Management-Internship) · [Tailored PDF](pdfs/ShravaniDorlikar-PMIntern-FulcrumGT-202604.pdf)
+[→ Apply here](https://github.com/jobright-ai/2026-Product-Management-Internship) · [Tailored PDF](pdfs/ShravaniDorlikar-PMIntern-FulcrumGT-202605.pdf)
 
 | # | Name | Role | LinkedIn | Why |
 |---|------|------|----------|-----|
@@ -143,7 +143,7 @@ _Maintained manually in [`data/contacts.json`](data/contacts.json). Edit there, 
 
 ## Replit — Growth Product Manager
 
-[→ Apply here](https://jobs.ashbyhq.com/replit/705620d0-74cd-4628-89c0-1e1bf39a998a) · [Tailored PDF](pdfs/ShravaniDorlikar-PMIntern-Replit-202604.pdf)
+[→ Apply here](https://jobs.ashbyhq.com/replit/705620d0-74cd-4628-89c0-1e1bf39a998a) · [Tailored PDF](pdfs/ShravaniDorlikar-PMIntern-Replit-202605.pdf)
 
 | # | Name | Role | LinkedIn | Why |
 |---|------|------|----------|-----|
