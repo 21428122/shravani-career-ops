@@ -151,3 +151,9 @@ _Maintained manually in [`data/contacts.json`](data/contacts.json). Edit there, 
 | 2 | Michele Catasta | President & Head of AI | [profile](https://www.linkedin.com/in/pirroh) | President; gates executive hires. Strong signal if Amol doesn't reply. |
 | 3 | Amjad Masad | Founder & CEO | [profile](https://www.linkedin.com/in/amjadmasad/) | Very public on Lenny's / Sequoia / YC. Has publicly critiqued PMs — a Growth PM cold DM is defensible. |
 
+## Glean — Product Management Intern, Admin Console
+
+[→ Apply here](https://job-boards.greenhouse.io/gleanwork/jobs/4699772005) · [Tailored PDF](pdfs/ShravaniDorlikar-PMIntern-Glean-202605.pdf)
+
+_No contacts researched yet. Add to `data/contacts.json` to surface._
+

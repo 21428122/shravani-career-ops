@@ -1,9 +1,9 @@
 # Shravani's PM Internship Resume Pipeline
 
 _Auto-refreshed every day at 7:00 AM ET._
-_Last update: **5/10/2026, 11:17:53 PM**_
+_Last update: **5/28/2026, 11:25:38 PM**_
 
-Total active applications: **15**
+Total active applications: **16**
 
 **👉 Start here:** [APPLY-PLAYBOOK.md](APPLY-PLAYBOOK.md) — the step-by-step for each application.
 
@@ -14,7 +14,7 @@ Total active applications: **15**
 - **cybersecurity** — 2
 - **devtools** — 3
 - **fintech** — 1
-- **generic** — 5
+- **generic** — 6
 - **nocode** — 2
 
 ## Active applications
@@ -36,6 +36,7 @@ Total active applications: **15**
 | 13 | **Scalence** | Product Owner Intern | `generic` | [PDF](pdfs/ShravaniDorlikar-PMIntern-Scalence-202605.pdf) | [→ Apply](https://github.com/jobright-ai/2026-Product-Management-Internship) | [**Ranjini Poddar** — CEO & Co-Founder](https://www.linkedin.com/in/ranjini-poddar-81b230/) | [tier1-linkedin-dms.md (adapt)](outreach/tier1-linkedin-dms.md) |
 | 14 | **Fulcrum GT** | Startup Lab 2026: Product Associate | `generic` | [PDF](pdfs/ShravaniDorlikar-PMIntern-FulcrumGT-202605.pdf) | [→ Apply](https://github.com/jobright-ai/2026-Product-Management-Internship) | [**Ahmed Shaaban** — Founder & CEO](https://www.linkedin.com/in/ahmed-shaaban-a62155b9) | [tier1-linkedin-dms.md (adapt)](outreach/tier1-linkedin-dms.md) |
 | 15 | **Replit** | Growth Product Manager | `devtools` | [PDF](pdfs/ShravaniDorlikar-PMIntern-Replit-202605.pdf) | [→ Apply](https://jobs.ashbyhq.com/replit/705620d0-74cd-4628-89c0-1e1bf39a998a) | [**Amol Jain** — Head of Product Engineering](https://www.linkedin.com/in/jainamol) | [tier2-cold-email-templates.md (Template C)](outreach/tier2-cold-email-templates.md) |
+| 16 | **Glean** | Product Management Intern, Admin Console | `generic` | [PDF](pdfs/ShravaniDorlikar-PMIntern-Glean-202605.pdf) | [→ Apply](https://job-boards.greenhouse.io/gleanwork/jobs/4699772005) | _no contact researched yet_ | [tier1-linkedin-dms.md (adapt)](outreach/tier1-linkedin-dms.md) |
 
 ## All LinkedIn contacts (3 per company)
 
