@@ -169,3 +169,9 @@ _No contacts researched yet. Add to `data/contacts.json` to surface._
 
 _No contacts researched yet. Add to `data/contacts.json` to surface._
 
+## Chime — Data Scientist, Growth Product
+
+[→ Apply here](https://boards.greenhouse.io/chime/jobs/8586430002?gh_jid=8586430002) · [Tailored PDF](pdfs/ShravaniDorlikar-PMIntern-Chime-202606.pdf)
+
+_No contacts researched yet. Add to `data/contacts.json` to surface._
+
