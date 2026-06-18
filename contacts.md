@@ -175,3 +175,9 @@ _No contacts researched yet. Add to `data/contacts.json` to surface._
 
 _No contacts researched yet. Add to `data/contacts.json` to surface._
 
+## Glean — Customer and Growth Product Marketing Lead
+
+[→ Apply here](https://job-boards.greenhouse.io/gleanwork/jobs/4705577005) · [Tailored PDF](pdfs/ShravaniDorlikar-PMIntern-Glean-202606.pdf)
+
+_No contacts researched yet. Add to `data/contacts.json` to surface._
+

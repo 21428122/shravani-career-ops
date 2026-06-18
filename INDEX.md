@@ -1,9 +1,9 @@
 # Shravani's PM Internship Resume Pipeline
 
 _Auto-refreshed every day at 7:00 AM ET._
-_Last update: **6/16/2026, 10:48:33 PM**_
+_Last update: **6/18/2026, 12:16:44 AM**_
 
-Total active applications: **19**
+Total active applications: **20**
 
 **👉 Start here:** [APPLY-PLAYBOOK.md](APPLY-PLAYBOOK.md) — the step-by-step for each application.
 
@@ -14,7 +14,7 @@ Total active applications: **19**
 - **cybersecurity** — 2
 - **devtools** — 3
 - **fintech** — 1
-- **generic** — 8
+- **generic** — 9
 - **nocode** — 3
 
 ## Active applications
@@ -40,6 +40,7 @@ Total active applications: **19**
 | 17 | **Chime** | Data Analyst, Growth Product | `generic` | [PDF](pdfs/ShravaniDorlikar-PMIntern-Chime-202606.pdf) | [→ Apply](https://boards.greenhouse.io/chime/jobs/8580602002?gh_jid=8580602002) | _no contact researched yet_ | [tier1-linkedin-dms.md (adapt)](outreach/tier1-linkedin-dms.md) |
 | 18 | **n8n** | AI Product Manager | `nocode` | [PDF](pdfs/ShravaniDorlikar-PMIntern-n8n-202606.pdf) | [→ Apply](https://jobs.ashbyhq.com/n8n/42e72645-d99a-4545-97b7-53ba3a699893) | _no contact researched yet_ | [tier2-cold-email-templates.md (Template A or B)](outreach/tier2-cold-email-templates.md) |
 | 19 | **Chime** | Data Scientist, Growth Product | `generic` | [PDF](pdfs/ShravaniDorlikar-PMIntern-Chime-202606.pdf) | [→ Apply](https://boards.greenhouse.io/chime/jobs/8586430002?gh_jid=8586430002) | _no contact researched yet_ | [tier1-linkedin-dms.md (adapt)](outreach/tier1-linkedin-dms.md) |
+| 20 | **Glean** | Customer and Growth Product Marketing Lead | `generic` | [PDF](pdfs/ShravaniDorlikar-PMIntern-Glean-202606.pdf) | [→ Apply](https://job-boards.greenhouse.io/gleanwork/jobs/4705577005) | _no contact researched yet_ | [tier1-linkedin-dms.md (adapt)](outreach/tier1-linkedin-dms.md) |
 
 ## All LinkedIn contacts (3 per company)
 
